@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+trap "setterm --cursor on; clear; exit; trap -- - SIGINT SIGTERM" SIGTERM SIGINT
+clear
+zet view disclaimer
+now
+setterm --cursor off
+while true; do sleep 2; done

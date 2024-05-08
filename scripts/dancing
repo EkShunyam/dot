@@ -1,0 +1,6 @@
+#!/bin/sh
+what="$*"
+if [ -z "$what" ]; then
+  what="pause for dancing"
+fi
+exec bannerfish "$what"
