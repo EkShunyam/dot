@@ -1,4 +1,4 @@
-# Get `lynx` and setup from SKILSTAK Beginner Boost
+# Get `lynx` and setup from rob
 
 ## Repo considerations
 
