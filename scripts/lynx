@@ -3,7 +3,8 @@
 # be sure to install the ca-certificates package
 
 # see ../lynx/README.md for configs
-
+#when using mac uncomment the line below
+#lynxpath=/opt/homebrew/bin/lynx
 lynxpath=/usr/bin/lynx
 [[ ! -x $lynxpath ]] && lynxpath=/usr/local/bin/lynx
 
