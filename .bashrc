@@ -134,6 +134,9 @@ pathprepend() {
 
 # remember last arg will be first in path
 pathprepend \
+	/opt/homebrew/bin \
+	/Users/ekshunya/miniconda3/condabin \
+	/Users/ekshunya/miniconda3/bin \
 	"$HOME/.local/bin" \
 	"$HOME/.local/go/bin" \
 	"$HOME/.nimble/bin" \
