@@ -37,7 +37,8 @@ set showmode
 "#######################################################################
 
 " disable visual bell (also disable in .inputrc)
-set t_vb=
+set noerrorbells
+set vb t_vb=
 
 let mapleader=","
 
