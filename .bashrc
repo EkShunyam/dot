@@ -52,6 +52,7 @@ export CLIP_DATA="$GHREPOS/cmd-clip/data"
 export CLIP_VOLUME=0
 export CLIP_SCREEN=0
 export TERM=xterm-256color
+export CLICOLOR=1
 export HRULEWIDTH=73
 export EDITOR=vi
 export VISUAL=vi
@@ -134,9 +135,6 @@ pathprepend() {
 
 # remember last arg will be first in path
 pathprepend \
-	/opt/homebrew/bin \
-	/Users/ekshunya/miniconda3/condabin \
-	/Users/ekshunya/miniconda3/bin \
 	"$HOME/.local/bin" \
 	"$HOME/.local/go/bin" \
 	"$HOME/.nimble/bin" \
@@ -144,6 +142,9 @@ pathprepend \
 	/usr/local/go/bin \
 	/usr/local/opt/openjdk/bin \
 	/usr/local/bin \
+	/Users/ekshunya/miniconda3/bin \
+	/Users/ekshunya/miniconda3/condabin \
+	/opt/homebrew/bin \
 	"$SCRIPTS"
 
 pathappend \
