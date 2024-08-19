@@ -22,7 +22,8 @@ _source_if() { [[ -r "$1" ]] && source "$1"; }
 
 export LANG=en_US.UTF-8 # assuming apt install language-pack-en done
 export USER="${USER:-$(whoami)}"
-export GITUSER="$USER"
+# export GITUSER="$USER"
+export GITUSER=EkShunyam
 export FTP=242
 export WEIGHT=83.7
 export HEIGHT=174
