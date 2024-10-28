@@ -1,5 +1,6 @@
 # Personal Dotfiles and Scripts
 
+[] porting to new mac 
 Pilfer at your own peril
 
 
